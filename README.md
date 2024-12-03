@@ -47,22 +47,14 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center my-4">ویژه اندروید، آیفون، ویندوز</h1>
+       <center> <img src="https://ipx.freehost.io/ip-banner.jpg" alt="banner" width="480" class="img-fluid mb-3" style="border-radius:25px 0 25px 25px;"></center>
 
         <p id="generated-number" class="text-center mb-4"></p>
 
         <div class="d-flex justify-content-center mb-4">
             <button id="verify-btn" class="btn btn-primary ms-2">تایید</button>
-            <input type="text" id="user-input" class="form-control w-80" placeholder="کد را اینجا وارد کنید" />
-            
+            <input type="tel" id="user-input" class="form-control w-80" placeholder="کد امنیتی را اینجا وارد کنید" />
         </div>
-
-        <div class="box text-center">
-            <a href="https://hamyaran.shop">
-                <img src="https://ipx.freehost.io/logo.png" alt="لوگو" width="100" class="img-fluid mb-3">
-            </a>
-        </div>
-
         <div class="infobox box">
             <ul>
                 <li class="wp-block-preformatted">تمامی پلن ها با حجم ترافیک نامحدود ارائه می شوند.</li>
@@ -72,41 +64,49 @@
             </ul>
         </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="box">
-                    <img src="https://ipx.freehost.io/android.jpg" alt="لوگو اندروید" class="img-fluid">
-                    <div class="content">
-                        <h3>خرید اشتراک برای اندروید</h3>
-                        <p>اختصاصی، نامحدود، آپ‌تایم بالا</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <img src="https://ipx.freehost.io/iphone.jpg" alt="لوگو ایفون" class="img-fluid">
-                    <div class="content">
-                        <h3>خرید اشتراک برای آیفون</h3>
-                        <p>پرسرعت، پایدار، بدون قطعی</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <img src="https://ipx.freehost.io/windows.jpg" alt="لوگو ویندوز" class="img-fluid">
-                    <div class="content">
-                        <h3>خرید اشتراک برای ویندوز</h3>
-                        <p>نصب آسان، پرسرعت، بدون قطعی</p>
-                    </div>
+
+<div class="container mt-3">
+    <div class="row gy-2">
+        <div class="col-md-4">
+            <div class="d-flex flex-row-reverse align-items-center border p-1">
+                <img src="https://ipx.freehost.io/android.jpg" alt="لوگو اندروید" class="img-fluid" style="width: 60px; height: auto;">
+                <div class="content me-2">
+                    <h6 class="mb-1">خرید اشتراک برای اندروید</h6>
+                    <p class="text-muted small mb-0">اختصاصی، نامحدود، آپ‌تایم بالا</p>
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="d-flex flex-row-reverse align-items-center border p-1">
+                <img src="https://ipx.freehost.io/iphone.jpg" alt="لوگو آیفون" class="img-fluid" style="width: 60px; height: auto;">
+                <div class="content me-2">
+                    <h6 class="mb-1">خرید اشتراک برای آیفون</h6>
+                    <p class="text-muted small mb-0">پرسرعت، پایدار، بدون قطعی</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex flex-row-reverse align-items-center border p-1">
+                <img src="https://ipx.freehost.io/windows.jpg" alt="لوگو ویندوز" class="img-fluid" style="width: 60px; height: auto;">
+                <div class="content me-2">
+                    <h6 class="mb-1">خرید اشتراک برای ویندوز</h6>
+                    <p class="text-muted small mb-0">نصب آسان، پرسرعت، بدون قطعی</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+       
     </div>
 
     <script>
         // تولید عدد تصادفی
         const randomNumber = Math.floor(1000 + Math.random() * 9000); // عدد چهار رقمی
-        document.getElementById("generated-number").textContent = `کد انتقال به سایت: ${randomNumber}`;
+        document.getElementById("generated-number").textContent = `کد امنیتی: ${randomNumber}`;
 
         // کلیک روی دکمه تایید
         document.getElementById("verify-btn").addEventListener("click", () => {
