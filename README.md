@@ -1,14 +1,15 @@
-<html lang="en">
-<head>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خرید vpn</title>
-        <!-- لینک به فایل‌های بوت‌استرپ --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Vazirmatn, sans-serif;
             background-color: #f4f4f4;
             padding: 20px;
         }
@@ -31,6 +32,7 @@
         .content {
             padding: 15px;
         }
+        h1 {font-size:18px;}
         .content h3 {
             color: #333;
         }
@@ -43,11 +45,21 @@
         .infobox li {
             margin-bottom: 10px;
         }
+        // <uniquifier>: Use a unique and descriptive class name
+        // <weight>: Use a value from 100 to 900
+
+        .vazirmatn-<uniquifier> {
+          font-family: "Vazirmatn", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+}
     </style>
-</head>
-<body>
+    </head>
+<body style="font-family: Vazirmatn, sans-serif;">
     <div class="container">
-       <center> <img src="https://myc.freehost.io/ip-banner.jpg" alt="banner" width="480" class="img-fluid mb-3" style="border-radius:25px 0 25px 25px;"></center>
+        <h1 style="font-size:18px;">خرید vpn پرسرعت بدون قطعی</h1>
+        <center> <img src="https://ipx.freehost.io/ip-banner.jpg" alt="banner" width="480" class="img-fluid mb-3" style="border-radius:25px 0 25px 25px;"></center>
 
         <p id="generated-number" class="text-center mb-4"></p>
 
@@ -63,13 +75,16 @@
                 <li class="wp-block-preformatted">7 روز ضمانت بازگشت وجه در صورت عدم رضایت</li>
             </ul>
         </div>
-
+        <h2>VPN سریع و امن برای دسترسی آزاد به اینترنت و شبکه‌های اجتماعی</h2>
+        <p>
+آیا به دنبال راهی برای دسترسی بدون محدودیت به شبکه‌های اجتماعی و محتوای آنلاین هستید؟ با استفاده از سرویس VPN همیاران، می‌توانید به راحتی محدودیت‌های اینترنتی را کنار بزنید و به محض اتصال، از شبکه‌های اجتماعی محبوب خود مانند اینستاگرام، تلگرام، واتس‌اپ و دیگر سایت‌ها بدون فیلتر شدن لذت ببرید. ما به شما تجربه‌ای روان و سریع ارائه می‌دهیم تا بدون دغدغه به دنیای آنلاین وصل شوید. اگر به آزادی آنلاین و امنیت در هر لحظه نیاز دارید، ما آن‌چه که می‌خواهید در اختیار شما قرار می‌دهیم.
+        </p>
 
 <div class="container mt-3">
     <div class="row gy-2">
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/android.jpg" alt="لوگو اندروید" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://ipx.freehost.io/android.jpg" alt="لوگو اندروید" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای اندروید</h6>
                     <p class="text-muted small mb-0">اختصاصی، نامحدود، آپ‌تایم بالا</p>
@@ -78,7 +93,7 @@
         </div>
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/iphone.jpg" alt="لوگو آیفون" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://ipx.freehost.io/iphone.jpg" alt="لوگو آیفون" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای آیفون</h6>
                     <p class="text-muted small mb-0">پرسرعت، پایدار، بدون قطعی</p>
@@ -87,7 +102,7 @@
         </div>
         <div class="col-md-4">
             <div class="d-flex flex-row-reverse align-items-center border p-1">
-                <img src="https://myc.freehost.io/windows.jpg" alt="لوگو ویندوز" class="img-fluid" style="width: 60px; height: auto;">
+                <img src="https://ipx.freehost.io/windows.jpg" alt="لوگو ویندوز" class="img-fluid" style="width: 60px; height: auto;">
                 <div class="content me-2">
                     <h6 class="mb-1">خرید اشتراک برای ویندوز</h6>
                     <p class="text-muted small mb-0">نصب آسان، پرسرعت، بدون قطعی</p>
@@ -124,7 +139,7 @@
                 }
 
                 // ارسال درخواست به سرور و دریافت لینک
-                fetch("https://myc.freehost.io?getLink=true")
+                fetch("https://ipx.freehost.io?getLink=true")
                     .then(response => {
                         if (!response.ok) {
                             throw new Error("Failed to fetch the link from the server.");
